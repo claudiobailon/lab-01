@@ -1,0 +1,11 @@
+body {
+  width: 768px;
+  background-color: maroon;
+}
+
+@media only screen and (min-width:768px){
+  body{
+    width: 900px;
+    background-color: navy;
+  }
+}

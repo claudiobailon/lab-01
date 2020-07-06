@@ -1,5 +1,7 @@
 body {
-  width: 480px;
+  /* to center whole page, I referenced https://www.w3schools.com/howto/howto_css_center_website.asp */
+  max-width: 480px;
+  margin: auto;
   background-color: maroon;
 }
 
@@ -8,18 +10,36 @@ div{
   text-align: center;
   height: 75px;
   line-height: 75px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-div:nth-of-type(2){
+div:nth-child(2){
   height: 150px;
   line-height: 150px;
 }
+div:nth-child(3), div:nth-child(4){
+  height: 125px;
+  line-height: 125px ;
+}
+
+.box {
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  float: left;
+  margin: auto;
+}
+
+div:last-of-type {
+  height: 80px;
+  line-height: 80px;
+  clear: both; /* david dicken helped */
+}
+
 
 @media only screen and (min-width:768px){
   body{
-    width: 900px;
+    max-width: 900px;
+    margin: auto;
     background-color: navy;
   }
 }

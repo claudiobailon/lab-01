@@ -32,14 +32,47 @@ div:nth-child(3), div:nth-child(4){
 div:last-of-type {
   height: 80px;
   line-height: 80px;
-  clear: both; /* david dicken helped */
+  clear: both; /* david dicken helped me sort this out */
 }
 
 
 @media only screen and (min-width:768px){
   body{
-    max-width: 900px;
+    max-width: 960px;
     margin: auto;
     background-color: navy;
   }
+
+  div{
+    height: 100px;
+    line-height: 100px;
+  }
+  div:nth-child(2){
+    width: 200px;
+    height: 600px;
+    float: left;
+    line-height: 600px;
+
+  }
+  div:nth-child(3), div:nth-child(4){
+    width:380px;
+    height: 200px;
+    line-height: 200px ;
+    float: left;
+  }
+  
+  /* .box {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    float: left;
+    margin: auto;
+  }
+  
+  div:last-of-type {
+    height: 80px;
+    line-height: 80px;
+    clear: both; 
+  } */
+
 }

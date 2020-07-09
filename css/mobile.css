@@ -1,0 +1,33 @@
+main {
+  display:grid;
+}
+div{
+  border: 1px solid aliceblue;
+  text-align: center;
+  height: 75px;
+  line-height: 75px;
+}
+
+div:nth-child(2){
+  height: 150px;
+  line-height: 150px;
+}
+div:nth-child(3), div:nth-child(4){
+  height: 125px;
+  line-height: 125px ;
+}
+
+.box {
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  float: left;
+}
+
+div:last-of-type {
+  height: 80px;
+  line-height: 80px;
+  clear: both; /* david dicken helped me sort this out */
+}
+
+/*================Wider Screen==============================*/

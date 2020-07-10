@@ -4,3 +4,7 @@
     margin: auto;
     background-color: navy;
   }
+  main {
+    display:grid;
+    grid-template: 1fr/ 200px repeat(4, 190px);
+  }

@@ -6,7 +6,7 @@
   }
   main {
     display:grid;
-    grid-template: 1fr/ 200px repeat(4, 190px);
+    grid-template: 1fr/ 1fr repeat(4, .8fr);
   }
 
   div{

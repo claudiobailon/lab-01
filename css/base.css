@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  color: aliceblue;
+  margin:auto;
+}
+body {
+  /* to center whole page, I referenced https://www.w3schools.com/howto/howto_css_center_website.asp */
+  max-width: 480px;
+  margin: auto;
+  background-color: maroon;
+}
